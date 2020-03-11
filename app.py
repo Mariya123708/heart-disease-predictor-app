@@ -43,7 +43,7 @@ def process_form():
         'age': int(request.form['age']),
         'bp_systolic': int(request.form['bp_systolic']),
         'bp_diastolic': int(request.form['bp_diastolic']),
-        'weight_kg': float(request.form['weight_kg']),
+        'Heart rate': float(request.form['weight_kg']),
         'height_cm': float(request.form['height_cm']),
         'cholesterol': int(request.form['cholesterol'])
     }
